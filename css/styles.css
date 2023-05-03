@@ -10839,6 +10839,7 @@ html {
 header {
   padding-top: 20rem;
   padding-bottom: 20rem;
+  /* display: block; */
 }
 
 section {
@@ -10890,6 +10891,9 @@ section {
   .ptext{
     max-width: 80%;
   }
+  .im{
+    width: 10%;
+  }
 }
 
 .tek {
@@ -10905,10 +10909,10 @@ section {
   color: #2c512b;
 }
 
-.im {
+/* .im {
   width: 572px;
   height: 292px;
-}
+} */
 
 .tek1 {
   display: flex;
@@ -11083,3 +11087,115 @@ color: #343637
   font-size: 18px;
   color: #000000;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+  gap: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 100%;
+}
+
+.item {
+  /* background-color: #ccc; */
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  iframe {
+    width: 100%;
+  }
+
+  img {
+    width: 250px;
+  }
+}
+
+
+/* footer */
+
+.bg-footer {
+  background-color: #33383c;
+  padding: 50px 0 30px;
+}
+.footer-heading {
+  letter-spacing: 2px;
+}
+
+.footer-link a {
+  color: #acacac;
+  line-height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.footer-link a:hover {
+  color: #1bbc9b;
+}
+
+.contact-info {
+  color: #acacac;
+  font-size: 14px;
+}
+
+.footer-social-icon {
+  font-size: 15px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #4e71a8;
+  color: #ffffff;
+}
+
+.twitter {
+  background-color: #55acee;
+  color: #ffffff;
+}
+
+.google {
+  background-color: #d6492f;
+  color: #ffffff;
+}
+
+.apple {
+  background-color: #424041;
+  color: #ffffff;
+}
+
+.footer-alt {
+  color: #acacac;
+}
+
+.footer-heading {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer-heading:after {
+  content: '';
+  width: 25px;
+  border-bottom: 1px solid #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid #1bbc9b;
+}
+
+
+
