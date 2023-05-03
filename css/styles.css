@@ -5787,9 +5787,9 @@ textarea.form-control-lg {
   color: var(--bs-popover-body-color);
 }
 
-.fw-bolder {
+/* .fw-bolder {
   position: absolute;
-}
+} */
 
 .carousel {
   position: relative;
@@ -10837,7 +10837,7 @@ html {
 }
 
 header {
-  padding-top: 20rem;
+  padding-top: 10rem;
   padding-bottom: 20rem;
 }
 
@@ -10846,6 +10846,91 @@ section {
   padding-bottom: 9rem;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.phv {
+  position: absolute;
+  right: 1.5%;
+}
+
+.ptext {
+  margin-left: 10px;
+  padding-right: 55%;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+/* dimensi laptop */
+@media (max-width: 1024px) {
+  .px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
+  .phv {
+    opacity: 0.35;
+    position: absolute;
+    right: 0%;
+    top: 1%;
+  }
+  .ptext {
+    position: sticky;
+    font-size: 17px;
+    padding-right: 40%;
+  }
+}
+/* dimensi tab */
+@media (max-width: 768px) {
+  .phv {
+    opacity: 0.35;
+    position: absolute;
+    right: 3%;
+  }
+  .ptext {
+    padding-right: 30%;
+  }
+}
+
+@media (max-width: 490px) {
+  .phv {
+    opacity: 0.5;
+    position: absolute;
+    right: 0%;
+    margin-top: 35%;
+  }
+  .ptext {
+    font-size: 15px;
+  }
+  .text1 {
+    font-size: 15px;
+  }
+  .text2 {
+    font-size: 15px;
+  }
+  .text3 {
+    font-size: 15px;
+  }
+
+  .fw-bolder {
+    /* position: relative; */
+    color: #2ab997;
+    letter-spacing: 1px;
+    font-size: 50px;
+  }
+
+  header {
+    padding-top: 23rem;
+    padding-bottom: 20rem;
+  }
+
+}
 
 @media (max-width: 768px) {
   .nav-link{
@@ -10853,43 +10938,13 @@ section {
   }
 }
 
-.imgbck{
-  position: relative;
-  float: right;
-  top: 139px;
-  /* z-index: 1; */
-}
-
-.ptext {
-  font-size: 18px;
-  color: #000;
-  margin-top: 2%;
-  width: 650px;
-  /* padding-right: 40%; */
-  font-family: 'Poppins';
-  text-align: justify;
-}
 
 @media (max-width: 1024px) {
-  .imgback {
-    width: 100%;
-  }
-
-  .text{
-    position: relative;
-    margin-top: 50rem;
-    /* width: max-content; */
-  }
-  .ptext{
-    justify-content: flex-end;
-
-  }
+ 
 }
 
 @media (max-width: 768px) {
-  .ptext{
-    max-width: 80%;
-  }
+ 
 }
 
 .tek {
