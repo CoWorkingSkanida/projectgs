@@ -11312,10 +11312,21 @@ color: #343637
   }
 }
 
+.kon {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  margin: 0px;
+  justify-content: space-between;
+}
 .footer {
-  background-color: #457543;
+  background-color: #D4E1E9;
   padding: 70px 0;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   bottom: 0;
   width: 100%;
 }
@@ -11337,18 +11348,20 @@ color: #343637
   position: relative;
 }
 
-
+ul {
+  list-style: none;
+}
 
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
 
 .footer-col ul li a {
-  font-size: 16px;
-  color: #ffffff;
+  font-size: 18px;
+  color: #343637;
+  font-family: 'Inter';
   text-decoration: none;
-  font-weight: 300;
-  color: #ffffff;
+  font-weight: 600;
   display: block;
   transition: all 0.3s ease;
 }
@@ -11362,12 +11375,12 @@ color: #343637
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: #ffffff;
+  background-color: #1f1919;
   margin: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #457543;
+  color: #fff;
   transition: all 0.5s ease;
 }
 
