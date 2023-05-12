@@ -11502,6 +11502,29 @@ section {
     padding-bottom: 9rem;
 }
 
+@media (max-width:768px) {
+    section {
+        padding-top: 5rem;
+        padding-bottom: 4rem;
+    }
+}
+
+.columbia {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:768px) {
+    .columbia {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.btn-lgi {
+    width: 12cm;
+}
+
 @media (max-width:425px) {
     section {
         padding-bottom: 1rem;
@@ -11869,12 +11892,10 @@ section {
 
 .grid {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
     /* grid-template-rows: repeat(2, 1fr); */
-    gap: 10px;
-    padding-left: 2%;
-    padding-right: 2%;
-    /* width: 100%; */
+    gap: 50px;
+    margin-left: 3%;
 }
 
 .grid1 {
@@ -11888,19 +11909,19 @@ section {
 }
 
 .prodprod {
-    width: 83%;
+    width: 97%;
 }
 
 @media (max-width:425px) {
     .grid {
         padding-left: 0%;
     }
-
     .grid1 {
         padding-left: 0%;
     }
     .prodprod {
-        width: 90%
+        width: 90%;
+        margin-left: 4%;
     }
 }
 
@@ -11916,6 +11937,37 @@ section {
     text-align: center;
 }
 
+@media (max-width:1440px) {
+    .gum2 {
+        width: 24px;
+        position: absolute;
+        right: 3cm;
+        /* margin-top: 8px; */
+    }
+    .mgu2 {
+        width: 24px;
+        position: absolute;
+        left: 65%;
+        /* margin-top: 2px; */
+    }
+}
+
+@media (max-width:1024px) {
+    .btn-lgi {
+        width: 8cm;
+    }
+    .gum2 {
+        width: 24px;
+        position: absolute;
+        right: 1cm;
+    }
+    .mgu2 {
+        width: 24px;
+        position: absolute;
+        left: 71%;
+    }
+}
+
 @media (max-width: 768px) {
     .grid {
         grid-template-columns: repeat(1, 1fr);
@@ -11926,12 +11978,10 @@ section {
     img {
         width: 700px;
     }
-
-    .mgu{
+    .mgu {
         width: 27px;
     }
-
-    .gum{
+    .gum {
         width: 27px;
     }
     .igm {
@@ -11939,6 +11989,22 @@ section {
     }
     .ugm {
         width: 24px;
+    }
+    .mgu2 {
+        position: relative;
+        left: 0%;
+        margin-right: 20px;
+    }
+    .gum2 {
+        position: relative;
+        right: 0%;
+    }
+    .item {
+        padding: 20px;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-left: 4%;
     }
 }
 
@@ -11973,6 +12039,9 @@ section {
         position: absolute;
         right: 2cm;
     }
+    .btn-lgi {
+        width: 12cm;
+    }
 }
 
 @media (max-width: 375px) {
@@ -11983,18 +12052,17 @@ section {
         width: 550px;
         height: 900px;
     }
-
     img {
         width: 9cm;
     }
-
-    .imagess .igm{
+    .imagess .igm {
         width: 9cm;
     }
-    .mgu{
-        right:2%;
+    .mgu {
+        right: 2%;
     }
 }
+
 
 /* s */
 
@@ -12074,10 +12142,6 @@ section {
     bottom: 0;
     display: block;
     border-bottom: 1px solid #1bbc9b;
-}
-
-.btn-dark {
-    /* width: 50%; */
 }
 
 @media (max-width:768px) {
