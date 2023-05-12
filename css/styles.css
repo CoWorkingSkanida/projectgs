@@ -12006,6 +12006,31 @@ section {
         flex-wrap: wrap;
         margin-left: 4%;
     }
+    .imagess {
+        margin-left: 12.5%;
+    }
+    .imagesss {
+        margin-left: 12.5%;
+        margin-top: 5%;
+    }
+    .mid {
+        padding-top: 1px;
+    }
+    .mid1 {
+        padding-top: 40px;
+    }
+    .pntek {
+        padding-top: 2%;
+    }
+    .btn-tum {
+        width: 10cm;
+    }
+    .pntx1 {
+        text-align: left;
+    }
+    .pntx2 {
+        text-align: left;
+    }
 }
 
 @media (max-width: 500px) {
@@ -12026,7 +12051,7 @@ section {
         height: 900px;
     }
     .igm {
-        width: 380px;
+        width: 340px;
     }
     .mgu {
         width: 24px;
@@ -12233,7 +12258,7 @@ ul {
 
 .footer-col .social-links a:hover {
     color: #ffffff;
-    background-color: #2a4b2a;
+    background-color: #424649;
 }
 
 @media (max-width: 767px) {
