@@ -12081,10 +12081,23 @@ section {
         width: 9cm;
     }
     .imagess .igm {
-        width: 9cm;
+        width: 8cm;
+        margin-right: 2%;
     }
     .mgu {
         right: 2%;
+    }
+    .imagess {
+        margin-left: 4mm;
+    }
+    .btn-tum {
+        width: 9cm;
+    }
+    .igm{
+        width: 300px;
+    }
+    .imagesss {
+        margin-left: 4mm;
     }
 }
 
@@ -12208,7 +12221,7 @@ section {
 }
 
 .footer-col {
-    width: 25%;
+    width: auto;
     padding-left: 2%;
 }
 
