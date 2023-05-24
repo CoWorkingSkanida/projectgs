@@ -11509,6 +11509,14 @@ section {
     }
 }
 
+.text2 {
+    position: relative;
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+
 .columbia {
     display: flex;
     justify-content: space-around;
@@ -11630,7 +11638,11 @@ section {
         margin-top: 25%;
     }
 }
-
+@media (max-width:320px) {
+    .text2{
+        font-size: 64px;
+    }
+}
 @media (max-width: 768px) {
     .nav-link {
         margin: 10px;
@@ -12081,8 +12093,8 @@ section {
         width: 8cm;
     }
     .imagess .igm {
-        width: 8cm;
-        margin-right: 2%;
+        width: 7cm;
+        /* margin-right: 2%; */
     }
     .mgu {
         right: 2%;
@@ -12094,7 +12106,7 @@ section {
         width: 8cm;
     }
     .igm{
-        width: 300px;
+        width: 280px;
     }
     .imagesss {
         margin-left: 4mm;
