@@ -13371,11 +13371,11 @@ section {
     }
 }
 
-@media (max-width:320px) {
+@media (max-width: 320px) {
     .btn-tum{
         width: 7cm;
     }
-    .img{
+    img {
         width: 7.5cm;
     }
 }
