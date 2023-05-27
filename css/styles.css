@@ -11567,6 +11567,7 @@ section {
         position: absolute;
         right: 0%;
         top: 1%;
+        left: 0%;
     }
     .ptext {
         position: sticky;
@@ -11575,6 +11576,28 @@ section {
     }
 }
 
+
+.text1{
+    position: relative; 
+    color: #2AB997; 
+    margin-right: 10px; 
+    font-size: 2em; 
+    font-weight: 600;
+    font-size: 70px;
+}
+.text2{
+    position: relative; 
+    color: #1E1E1E; 
+    font-size: 2em; 
+    font-weight:600;
+    font-size: 70px;
+}
+.text3{
+    position: relative;
+    color: #1E1E1E; 
+    font-weight: 600; 
+    font-size: 70px;
+}
 
 /* dimensi tab */
 
@@ -11588,7 +11611,7 @@ section {
     .phv {
         opacity: 0.35;
         position: absolute;
-        right: 3%;
+        /* right: 3%; */
     }
     .ptext {
         padding-right: 30%;
@@ -11608,13 +11631,13 @@ section {
         padding-right: 10%;
     }
     .text1 {
-        font-size: 15px;
+        font-size: 70px;
     }
     .text2 {
-        font-size: 15px;
+        font-size: 70px;
     }
     .text3 {
-        font-size: 15px;
+        font-size: 70px;
     }
     .fw-bolder {
         position: relative;
@@ -11966,6 +11989,11 @@ section {
         position: absolute;
         left: 71%;
     }
+
+    .pgambar{
+        width: 100%;
+        height: 27cm;
+    }
 }
 
 @media (max-width: 768px) {
@@ -12047,8 +12075,8 @@ section {
         width: 100%;
     }
     .pgambar {
-        width: 550px;
-        height: 900px;
+        width: 426px;
+        height: 841px;
     }
     .igm {
         width: 340px;
@@ -12074,8 +12102,8 @@ section {
         width: 100%;
     }
     .pgambar {
-        width: 550px;
-        height: 900px;
+        width: 375px;
+        height: 790px;
     }
     img {
         width: 8cm;
@@ -12101,6 +12129,31 @@ section {
     }
 }
 
+@media(max-width: 320px){
+    .pgambar{
+        width: 320px;
+        height: 780px;
+    }
+
+    .text1 {
+        font-size: 60px;
+    }
+    .text2 {
+        font-size: 60px;
+    }
+
+    header{
+        padding-bottom: 7rem;
+    }
+    .imagesss {
+        margin-left: 0;
+        margin-right: 3mm;
+    }
+    .imagess {
+        margin-left: 0;
+        margin-right: 3mm;
+    }
+}
 
 /* s */
 
