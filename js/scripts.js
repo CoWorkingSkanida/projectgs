@@ -36,4 +36,5 @@ window.addEventListener('DOMContentLoaded', event => {
         $("#myModal").modal("toggle");
 
     })
+    
 });
