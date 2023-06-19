@@ -13198,6 +13198,21 @@ section {
     text-align: center;
 }
 
+@media (max-width:2560px) {
+    .gum2 {
+        width: 24px;
+        position: absolute;
+        right: 11cm;
+        /* margin-top: 8px; */
+    }
+
+    .mgu2 {
+        width: 24px;
+        position: absolute;
+        left: 70%;
+        /* margin-top: 2px; */
+    }
+}
 @media (max-width:1440px) {
     .gum2 {
         width: 24px;
