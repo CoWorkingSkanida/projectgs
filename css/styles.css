@@ -13653,13 +13653,18 @@ ul {
     .footer-col {
         width: 100%;
     }
+    .social-links{
+        margin-left: 35px;
+    }
 }
 
 @media (max-width: 425px) {
     .footer {
         margin-top: 0px;
     }
-
+    img{
+        width: 10cm;
+    }
     .social-links {
         margin-top: 0%;
         margin-left: 8%;
