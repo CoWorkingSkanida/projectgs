@@ -13203,7 +13203,7 @@ section {
     .gum2 {
         width: 24px;
         position: absolute;
-        right: 7cm;
+        right: 11cm;
         /* margin-top: 8px; */
     }
 
@@ -13440,7 +13440,9 @@ section {
     img {
         width: 7.5cm;
     }
-}@media(max-width: 320px){
+}
+
+@media(max-width: 320px){
     .pgambar{
         width: 320px;
         height: 780px;
