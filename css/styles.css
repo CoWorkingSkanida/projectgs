@@ -13437,9 +13437,7 @@ section {
     .btn-tum{
         width: 7cm;
     }
-    img {
-        width: 7.5cm;
-    }
+ 
 }
 
 @media(max-width: 320px){
@@ -13672,7 +13670,11 @@ ul {
         margin-left: 8%;
     }
 }
-
+@media (max-width:320px) {
+    img {
+        width: 7.5cm;
+    }
+}
 .p5 {
     width: 17cm;
     height: 10cm;
