@@ -13824,10 +13824,22 @@ ul {
 }
 @media (max-width: 425px) {
   .q {
-    width: 10cm;
+    width: 9.5cm;
     height: 6cm;
     margin-top: 9%;
   }
+
+  .p5 {
+    width: 9.5cm;
+    height: 6cm;
+    margin-top: 9%;
+  }
+}
+
+@media (max-width:400px){
+    .q{
+        width: 9.5cm;
+    }
 }
 @media (max-width: 375px) {
   .q {
@@ -13836,13 +13848,7 @@ ul {
     margin-top: 9%;
   }
 }
-@media (max-width: 320px) {
-  .q {
-    width: 7cm;
-    height: 4cm;
-    margin-top: 9%;
-  }
-}
+
 
 .modal-dialog {
   margin-top: 20%;
@@ -13936,6 +13942,21 @@ ul {
     margin-top: 9%;
   }
 }
+
+@media (max-width: 320px) {
+    .q {
+      width: 7cm;
+      height: 4cm;
+      margin-top: 9%;
+    }
+
+    .p5 {
+            width: 7cm;
+            height: 4cm;
+            margin-top: 9%;
+    }
+  }
+
 @media (max-width: 320px) {
   .pgambar {
     width: 320px;
