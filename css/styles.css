@@ -13920,7 +13920,12 @@ ul {
     margin-left: 4mm;
   }
 }
-
+@media (max-width: 360px) {
+    .pgambar {
+      width: 361px;
+      height: 945px;
+    }
+  }
 @media (max-width: 320px) {
   .pgambar {
     width: 320px;
@@ -13946,12 +13951,8 @@ ul {
     margin-right: 3mm;
   }
 }
-@media (max-width: 300px) {
-    .pgambar {
-      width: 300px;
-      height: 907px;
-    }
-  }
+
+
 @media (max-width: 320px) {
   .btn-tum {
     width: 7cm;
