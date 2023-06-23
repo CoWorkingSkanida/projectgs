@@ -13921,11 +13921,21 @@ ul {
   }
 }
 @media (max-width: 360px) {
-    .pgambar {
-      width: 361px;
-      height: 945px;
-    }
+  .pgambar {
+    width: 361px;
+    height: 945px;
   }
+  .q {
+    width: 8.5cm;
+    height: 5cm;
+    margin-top: 9%;
+  }
+  .p5 {
+    width: 8.5cm;
+    height: 5cm;
+    margin-top: 9%;
+  }
+}
 @media (max-width: 320px) {
   .pgambar {
     width: 320px;
@@ -13951,7 +13961,6 @@ ul {
     margin-right: 3mm;
   }
 }
-
 
 @media (max-width: 320px) {
   .btn-tum {
