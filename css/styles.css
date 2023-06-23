@@ -13471,7 +13471,8 @@ section {
     height: auto;
     margin-top: 9%;
   }
-  .qa {
+  .btn-tum {
+    width: 9cm;
   }
 }
 @media (max-width: 425px) {
@@ -13516,6 +13517,12 @@ section {
   .pgambar {
     width: 100%;
     height: 22cm;
+  }
+  .imagess {
+    margin-left: -1.5%;
+  }
+  .imagesss {
+    margin-left: -1.5%;
   }
 }
 
@@ -13754,7 +13761,7 @@ ul {
 }
 @media (max-width: 500px) {
   .p5 {
-    width: 11cm;
+    width: 10cm;
   }
 }
 @media (max-width: 425px) {
@@ -13810,7 +13817,7 @@ ul {
 }
 @media (max-width: 500px) {
   .q {
-    width: 11cm;
+    width: 10cm;
     height: auto;
     margin-top: 9%;
   }
